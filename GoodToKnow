@@ -1,0 +1,11 @@
+1. SD-Cards are using FAT32 File system in most cases, this file system has some limitations
+
+Fist one is file size - File can't be transfered to that kind of file system if its size is greater then 4GB
+Second one is max partition size - 32GB
+Third one is max disc size is 2TB
+Forth one is max file cont which can be contained by directory (folder) - 64k fils
+
+IMPORTANT - Forth case has some additionat constraions max limit of file number depends on file name length
+max file Name is 11 to achive max file number (64k)
+
+this link contains a web page with included calculator of max file count https://blog.paddlefish.net/?page_id=1017
