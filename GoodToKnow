@@ -1,3 +1,5 @@
+STORAGE FRAMEWORK
+
 1. SD-Cards are using FAT32 File system in most cases, this file system has some limitations
 
 Fist one is file size - File can't be transfered to that kind of file system if its size is greater then 4GB
@@ -12,3 +14,9 @@ this link contains a web page with included calculator of max file count https:/
 
 2. Storage framework good description
 https://stackoverflow.com/questions/26744842/how-to-use-the-new-sd-card-access-api-presented-for-android-5-0-lollipop
+
+RX-JAVA
+
+1. flatMap will not call onComplete callback so if you are trying to make toList after it, it will fail
+2. Remember to ALWAYS unsubscribe from Observable if you don't need it anymore.
+
