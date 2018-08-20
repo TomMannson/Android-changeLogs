@@ -9,3 +9,6 @@ IMPORTANT - Forth case has some additionat constraions max limit of file number 
 max file Name is 11 to achive max file number (64k)
 
 this link contains a web page with included calculator of max file count https://blog.paddlefish.net/?page_id=1017
+
+2. Storage framework good description
+https://stackoverflow.com/questions/26744842/how-to-use-the-new-sd-card-access-api-presented-for-android-5-0-lollipop
