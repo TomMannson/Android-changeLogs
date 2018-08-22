@@ -20,3 +20,7 @@ RX-JAVA
 1. flatMap will not call onComplete callback so if you are trying to make toList after it, it will fail
 2. Remember to ALWAYS unsubscribe from Observable if you don't need it anymore.
 
+
+GRAPHIC
+
+1. Small icon displaying method depends on device Samsung can display RGB icons, Nexus devices displays single color icons 
